@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Книжный клуб</title>
+  <link rel="stylesheet" href="Сайт1.css">
+  <script src="Сайт1.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="container">
+      <p class="brand">Книжный клуб</p>
+      <nav aria-label="Основная навигация">
+        <a href="#topics">Темы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="intro">
+      <h1>Учимся грамотно выбирать книги</h1>
+      <p>Читаем, задаём вопросы и собираем свою книжнкю полку.</p>
+      <a class="button" href="#topics">Посмотреть темы</a>
+         
+    </section>
+    <section id="topics">
+      <h2>Что мы изучаем</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Скорочтение</h3>
+          <p>Развиваем способность воспринимать текст в 3–4 раза быстрее обычной скорости .</p>
+        </article>
+        <article class="card">
+          <h3>Виды книг</h3>
+          <p>Учимся разделять их по содержанию (художественные и документальные), жанрам (фантастика, детектив и др.) и формату (бумажные, электронные, аудио).</p>
+        </article>
+        <article class="card">
+          <h3>Жанры книг</h3>
+          <p>Учимся разделять художественную литературу (вымысел и образное повествование) и нон-фикшн (реальные факты, знания и документы).</p>
+        </article>
+          <article class="card">
+          <h3>Понимать авторов</h3>
+          <p>формы присутствия автора в тексте и типы повествователей (нараторов), через которых выражается авторская позиция.</p>
+        </article>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <h2>Как присоединиться</h2>
+      <p>Приходите в библеотеку №0 после занятий.</p>
+    </section>
+  </main>
+  <section id="join" class="join">
+      <h2>Знакомство с участником</h2>
+      <p>Учебная демонстрация. Данные никуда не отправляются.</p>
+      <label for="visitor-name">Ваше имя</label>
+      <input id="visitor-name" type="text" maxlength="40">
+      <button id="join-button" class="button" type="button">
+        Поприветствовать
+      </button>
+      <p id="message" role="status">Здесь появится сообщение.</p>
+    </section>
+  <footer class="container">
+    <p>Учебный проект. Автор: Авто.Ру</p>
+  </footer>
+
+</body>
+</html>
